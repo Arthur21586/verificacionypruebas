@@ -1,0 +1,233 @@
+{
+  "business": {
+    "name": "Dulcería y Papelería Boss",
+    "owner": "Encargado General",
+    "address": "Av. Principal #123, Col. Centro",
+    "phone": "555-123-4567",
+    "footerText": "Gracias por su compra, vuelva pronto.",
+    "extraText": "Conserve este comprobante. No se aceptan devoluciones.",
+    "logo": ""
+  },
+  "auth": {
+    "currentUser": null,
+    "vendedorPassword": "123",
+    "adminLoggedIn": false,
+    "isLocked": false
+  },
+  "inventory": [
+    {
+      "id": "P001",
+      "name": "Agua Embotellada 500ml",
+      "category": "Aguas y Snacks",
+      "subcategory": "Bebidas",
+      "brand": "Bonafont",
+      "cost": 8,
+      "price": 15,
+      "stock": 50,
+      "minStock": 10,
+      "type": "physical"
+    },
+    {
+      "id": "P002",
+      "name": "Agua Embotellada 1L",
+      "category": "Aguas y Snacks",
+      "subcategory": "Bebidas",
+      "brand": "Ciel",
+      "cost": 12,
+      "price": 20,
+      "stock": 35,
+      "minStock": 8,
+      "type": "physical"
+    },
+    {
+      "id": "P003",
+      "name": "Agua Embotellada 1.5L",
+      "category": "Aguas y Snacks",
+      "subcategory": "Bebidas",
+      "brand": "Epura",
+      "cost": 15,
+      "price": 25,
+      "stock": 20,
+      "minStock": 5,
+      "type": "physical"
+    },
+    {
+      "id": "P004",
+      "name": "Sabritas Sal 45g",
+      "category": "Aguas y Snacks",
+      "subcategory": "Sabritas",
+      "brand": "Sabritas",
+      "cost": 12,
+      "price": 18,
+      "stock": 40,
+      "minStock": 10,
+      "type": "physical"
+    },
+    {
+      "id": "P005",
+      "name": "Papas Fuego 55g",
+      "category": "Aguas y Snacks",
+      "subcategory": "Papas",
+      "brand": "Barcel",
+      "cost": 14,
+      "price": 22,
+      "stock": 30,
+      "minStock": 8,
+      "type": "physical"
+    },
+    {
+      "id": "P006",
+      "name": "Galletas Emperador",
+      "category": "Aguas y Snacks",
+      "subcategory": "Snacks",
+      "brand": "Gamesa",
+      "cost": 10,
+      "price": 16,
+      "stock": 25,
+      "minStock": 6,
+      "type": "physical"
+    },
+    {
+      "id": "P007",
+      "name": "Refresco Lata 355ml",
+      "category": "Aguas y Snacks",
+      "subcategory": "Bebidas",
+      "brand": "Coca-Cola",
+      "cost": 14,
+      "price": 22,
+      "stock": 60,
+      "minStock": 12,
+      "type": "physical"
+    },
+    {
+      "id": "D001",
+      "name": "Paleta de Caramelo Macizo",
+      "category": "Dulcería",
+      "subcategory": "Paletas",
+      "brand": "Vero",
+      "cost": 2,
+      "price": 5,
+      "stock": 100,
+      "minStock": 20,
+      "type": "physical"
+    },
+    {
+      "id": "D002",
+      "name": "Chocolate Barra Clásica",
+      "category": "Dulcería",
+      "subcategory": "Chocolates",
+      "brand": "Carlos V",
+      "cost": 9,
+      "price": 15,
+      "stock": 45,
+      "minStock": 10,
+      "type": "physical"
+    },
+    {
+      "id": "D003",
+      "name": "Bolsa de Gomitas 100g",
+      "category": "Dulcería",
+      "subcategory": "Dulces",
+      "brand": "Panditas",
+      "cost": 12,
+      "price": 20,
+      "stock": 35,
+      "minStock": 8,
+      "type": "physical"
+    },
+    {
+      "id": "D004",
+      "name": "Mazapán Gigante",
+      "category": "Dulcería",
+      "subcategory": "Dulces",
+      "brand": "De La Rosa",
+      "cost": 5,
+      "price": 10,
+      "stock": 50,
+      "minStock": 15,
+      "type": "physical"
+    },
+    {
+      "id": "S001",
+      "name": "Copia Blanco y Negro",
+      "category": "Impresiones y Copias",
+      "subcategory": "Copias",
+      "brand": "Servicio",
+      "cost": 0.5,
+      "price": 1.5,
+      "stock": 0,
+      "minStock": 0,
+      "type": "service"
+    },
+    {
+      "id": "S002",
+      "name": "Impresión Blanco y Negro",
+      "category": "Impresiones y Copias",
+      "subcategory": "Impresiones",
+      "brand": "Servicio",
+      "cost": 1,
+      "price": 3,
+      "stock": 0,
+      "minStock": 0,
+      "type": "service"
+    },
+    {
+      "id": "S003",
+      "name": "Copia a Color",
+      "category": "Impresiones y Copias",
+      "subcategory": "Copias",
+      "brand": "Servicio",
+      "cost": 2,
+      "price": 5,
+      "stock": 0,
+      "minStock": 0,
+      "type": "service"
+    },
+    {
+      "id": "S004",
+      "name": "Impresión a Color",
+      "category": "Impresiones y Copias",
+      "subcategory": "Impresiones",
+      "brand": "Servicio",
+      "cost": 3,
+      "price": 8,
+      "stock": 0,
+      "minStock": 0,
+      "type": "service"
+    },
+    {
+      "id": "S005",
+      "name": "Escaneo de Documento",
+      "category": "Impresiones y Copias",
+      "subcategory": "Servicios",
+      "brand": "Servicio",
+      "cost": 2,
+      "price": 6,
+      "stock": 0,
+      "minStock": 0,
+      "type": "service"
+    },
+    {
+      "id": "S006",
+      "name": "Descarga de RFC / Constancia",
+      "category": "Impresiones y Copias",
+      "subcategory": "Servicios",
+      "brand": "Servicio",
+      "cost": 5,
+      "price": 15,
+      "stock": 0,
+      "minStock": 0,
+      "type": "service"
+    }
+  ],
+  "sales": [],
+  "finances": [],
+  "initialInvestment": {
+    "amount": 10000,
+    "active": true
+  },
+  "cart": {
+    "items": [],
+    "discount": 0
+  }
+}
